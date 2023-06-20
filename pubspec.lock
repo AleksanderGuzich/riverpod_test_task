@@ -43,6 +43,20 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.16.0"
+  core:
+    dependency: transitive
+    description:
+      path: core
+      relative: true
+    source: path
+    version: "0.0.1"
+  core_ui:
+    dependency: transitive
+    description:
+      path: core_ui
+      relative: true
+    source: path
+    version: "0.0.1"
   cupertino_icons:
     dependency: "direct main"
     description:
@@ -50,6 +64,27 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.0.5"
+  data:
+    dependency: transitive
+    description:
+      path: data
+      relative: true
+    source: path
+    version: "0.0.1"
+  domain:
+    dependency: transitive
+    description:
+      path: domain
+      relative: true
+    source: path
+    version: "0.0.1"
+  equatable:
+    dependency: transitive
+    description:
+      name: equatable
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "2.0.5"
   fake_async:
     dependency: transitive
     description:
@@ -81,6 +116,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "2.0.1"
+  main:
+    dependency: "direct main"
+    description:
+      path: "features/main"
+      relative: true
+    source: path
+    version: "0.0.1"
   matcher:
     dependency: transitive
     description:
@@ -165,3 +207,4 @@ packages:
     version: "2.1.2"
 sdks:
   dart: ">=2.17.5 <3.0.0"
+  flutter: ">=1.17.0"

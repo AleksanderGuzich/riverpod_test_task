@@ -1,7 +1,6 @@
 library domain;
 
-/// A Calculator.
-class Calculator {
-  /// Returns [value] plus 1.
-  int addOne(int value) => value + 1;
-}
+import 'package:core/core.dart';
+export 'src/main_feature/main_feature.dart';
+
+part 'src/common/use_case.dart';
