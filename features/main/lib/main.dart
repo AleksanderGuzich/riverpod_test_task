@@ -1,7 +1,4 @@
 library main;
 
-/// A Calculator.
-class Calculator {
-  /// Returns [value] plus 1.
-  int addOne(int value) => value + 1;
-}
+export 'src/main_screen/main_screen_ui.dart';
+export 'package:flutter_riverpod/flutter_riverpod.dart';
