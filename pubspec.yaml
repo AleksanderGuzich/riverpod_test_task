@@ -9,6 +9,10 @@ environment:
 dependencies:
   main:
     path: features/main
+  data:
+    path: data
+  core:
+    path: core
   flutter:
     sdk: flutter
   cupertino_icons: ^1.0.2

@@ -1,16 +1,20 @@
-# test_task
+# Test Riverpod app
 
-A new Flutter project.
+## 1. GitFlow
+Branches: master, dev, feature/name-1, bugfix/name-2.
+Commit name structure: [name-1] Description
+Merge request should contain no more than 40 files
 
-## Getting Started
+## 2. Architecture
+Clean Architecture + Riverpod
+Dependency Injection: GetIt
+Domain layer: models(there are no models in this test app), repositories, use-cases.
+Data layer: entities(there are no entities in this test app), mappers from entities to domain model(no mappers in this app), implementations of repositories and providers.
+Presentation layer: screens + riverpod
 
-This project is a starting point for a Flutter application.
+## 3. Project structure
+Modules: core, core_ui (empty because of task requirements), data, domain, etc.
+For presentation layer every feature is a separate module.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 4. Asynchrony support
+Flutter Async
